@@ -1,0 +1,10 @@
+Für jedes Jahr enthält die Grafik einen Boxplot. Der Boxplot visualisiert die Streuung der Titellängen und teilt die Werte in vier Segmente um den Median (identisch mit Quartil 2) der Reihe ein.
+
+Die vier Segmente heißen Quartile. Das zweite und dritte Quartil sind zusammen mit dem Median hervorgehoben und bilden mit 50% der Werte den „Kern“ der Reihe. 25% der Werte sind größer als das 3. Quartil und 25% sind kleiner als das 1. Quartil.
+
+An der mittleren Box hängen zwei Antennen ("Whisker"), die jeweils auf 1,5*IQR limitiert sind (IQR=Q3-Q1; also die Länge der mittleren Box). Die Antennen werden nach unten abgeschnitten, da 1 der kleinste Wert ist.
+Die Antennen werden auch z. T. nach oben abgeschnitten, und zwar dann, wenn kein Wert 1,5*IQR entspricht. Dann wird der nächstkleinere Wert als Grenze der Whiskers genutzt.
+
+Alle Punkte jenseits der Whisker sind statistische Ausreißer; sie ziehen den Mittelwert besonders stark über den Median.
+
+Die Grafik verzeichnet außerdem den Mittelwert für jedes Jahr. Die Mittelwerte sind mit einer roten Linie verbunden.
