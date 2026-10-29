@@ -1,6 +1,6 @@
 """
-Mit diesem Skript werde alle Filmtitel aus allen CSV-Dateien aus dem Verzeichnis "data" extrahiert, deren Titel aus
-genau einem Term besteht. Die CSV-Dateien im Verzeichnis "Einworttiel" enthalten nur noch Titel, auf welche die
+Mit diesem Skript werden alle Filmtitel aus allen CSV-Dateien aus dem Verzeichnis "data" extrahiert, deren Titel aus
+genau einem Term besteht. Die CSV-Dateien im Verzeichnis "Einworttitel" enthalten nur noch Titel, auf welche die
 Bedingung zutrifft.
 """
 

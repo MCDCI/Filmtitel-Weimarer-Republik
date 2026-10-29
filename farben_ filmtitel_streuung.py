@@ -1,11 +1,11 @@
 """
-Dies Skript berechent und visualisiert die Streuung der Farbennennungen pro Jahr in den CSV-Datein im Verzeichnis
+Dieses Skript berechnet und visualisiert die Streuung der Farbennennungen pro Jahr in den CSV‑Dateien im Verzeichnis
 "data". Zu diesem Zweck werden die Terme der Filmtitel vor ihrer Zählung  mittels des Spacy-Modells 'de_core_news_sm'
 lemmatisiert. Komposita wurden hier nicht berücksichtigt. Die berechneten Werte werden im Anschluss als Balkendiagramm
-visualisiert. Die zugrundeliegenden Werte werden ausßerdem unter "Farbhäufigkeiten" serialisiert. Jede Zeile besitzt
+visualisiert. Die zugrundeliegenden Werte werden außerdem unter "Farbhäufigkeiten" serialisiert. Jede Zeile besitzt
 hier eine Zelle mit dem folgenden Vektor: {'rot': a, 'blau': b, 'grün': c, 'gelb': x, 'schwarz': y, 'weiß': z, 'gold': m}.
 
-HINWEIS: Diese Skript wurde KI-gestützt erstellt. Die Programmcode wurden im Detail geprüft.
+HINWEIS: Dieses Skript wurde KI-gestützt erstellt. Der Programmcode wurde im Detail geprüft.
 """
 
 import pandas as pd

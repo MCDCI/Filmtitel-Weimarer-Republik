@@ -1,7 +1,7 @@
 """
-Mit diesem Skript werde alle Filmtitel aus allen CSV-Dateien aus dem Verzeichnis "data" extrahiert, die mindestens eine
-Named Entity enhalten. Die CSV-Dateien im Verzeichnis "NamedEntities" enthalten nur noch Titel, auf welche die Bedingung
-zutrifft.
+Mit diesem Skript werden alle Filmtitel aus allen CSV-Dateien aus dem Verzeichnis "data" extrahiert, die mindestens eine
+Named Entity enthalten. Für die NER wird das Modell 'flair/ner-german-large' genutzt. Die CSV-Dateien im Verzeichnis
+"NamedEntities" enthalten nur noch Titel, auf welche die Bedingung zutrifft.
 """
 
 import os

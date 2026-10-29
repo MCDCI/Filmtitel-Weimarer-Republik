@@ -1,9 +1,9 @@
 """
 Mit diesem Skript wird die Farbhäufigkeit pro Titel je Farbe berechnet und als gruppiertes Balkendiagramm visualisiert.
-Zu diesem Zweck werden die Terme der Filmtitel vor ihrer Zählung  mittels des Spacy-Modells 'de_core_news_sm'
+Zu diesem Zweck werden die Terme der Filmtitel vor ihrer Zählung mittels des Spacy-Modells 'de_core_news_sm'
 lemmatisiert. Komposita wurden hier nicht berücksichtigt.
 
-HINWEIS: Diese Skript wurde KI-gestützt erstellt. Die Programmcode wurden im Detail geprüft.
+HINWEIS: Dieses Skript wurde KI-gestützt erstellt. Der Programmcode wurde im Detail geprüft.
 """
 
 import pandas as pd
